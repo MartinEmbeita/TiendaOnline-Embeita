@@ -1,14 +1,3 @@
-// let productos = [
-//   { id: 1, categorias: ["perros", "alimento", "humedo"], nombre: "Proplan", stock: 23, precio: 1200, imgUrl: "./activos/imagenes/proplan.png" },
-//   { id: 2, categorias: ["perros", "alimento", "seco"], nombre: "Pedigree", stock: 10, precio: 1000, imgUrl: "./activos/imagenes/pedigree.png" },
-//   { id: 3, categorias: ["gatos", "alimento", "seco"], nombre: "Whiskas", stock: 34, precio: 1300, imgUrl: "./activos/imagenes/whiskas.png" },
-//   { id: 4, categorias: ["perros", "alimento", "humedo" ], nombre: "Royal Canin", stock: 32, precio: 1200, imgUrl: "./activos/imagenes/royalcanin.png" },
-//   { id: 5, categorias: ["gatos", "alimento", "seco"], nombre: "Can Cat", stock: 17, precio: 900, imgUrl: "./activos/imagenes/cancat.png" },
-//   { id: 6, categorias: ["gatos", "alimento", "seco"], nombre: "Cat Chow", stock: 3, precio: 1400, imgUrl: "./activos/imagenes/catchow.png" },
-//   { id: 7, categorias: ["perros", "alimento", "humedo"], nombre: "Old Price", stock: 12, precio: 1200, imgUrl: "./activos/imagenes/oldprince.png" },
-//   { id: 8, categorias: ["gatos", "alimento", "humedo"], nombre: "Eukanuba", stock: 21, precio: 1000, imgUrl: "./activos/imagenes/eukanuba.png" }
-// ]
-
 fetch("productos.json")
   .then(response => response.json())
   .then(productos => miPrograma(productos))
